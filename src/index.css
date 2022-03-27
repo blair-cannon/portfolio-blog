@@ -1,11 +1,14 @@
 html {
 background-color: #e7dfd8;
+display: flex;
+align-content: center
 }
 
 nav {
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
+  height: 5rem
 }
 
 .nav-link {
@@ -13,4 +16,91 @@ nav {
   text-decoration: none;
   font-family: Agrandir;
   font-weight: bold;
+  height: 1rem
+}
+
+.nav-link:hover {
+  border-bottom: solid 2px #231f20;
+  padding-bottom: 10px;
+  border-top: solid 2px #231f20;
+  padding-top: 10px
+
+}
+
+.top-spacer {
+  height: 10rem;
+}
+
+.homePageContainer {
+  height: 30rem;
+  width: 70rem;
+  border: solid 2px #231f20;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.homePageHeader {
+  font-size: 5rem;
+  color: #231f20;
+  font-family: Agrandir;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.homePageSubheader {
+  font-size: 1.5rem;
+  color: #231f20;
+  font-family: Agrandir;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.homeRight {
+  object-fit: contain;
+}
+
+.headShot {
+  width: 34rem;
+  height: 30rem;
+  object-fit: contain;
+}
+
+.svgBlock {
+  margin-top:15rem
+}
+
+.belowTheFold {
+  height: 30rem;
+  width: 100vw;
+  background-color: #e7dfd8;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectDisplayHome {
+  border: solid 2px #231f20;
+  width: 20rem;
+  height: 20rem
+}
+
+.projectTitle {
+  color: #231f20;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.projectDescription {
+  color: #231f20;
+  font-size: 1rem
+}
+
+.recentProjects {
+  color: #231f20;
+  font-size: 3rem;
+  margin-left: 5rem;
+  margin-top: 10rem
 }
