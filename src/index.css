@@ -1,0 +1,16 @@
+html {
+background-color: #e7dfd8;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.nav-link {
+  color: #231f20;
+  text-decoration: none;
+  font-family: Agrandir;
+  font-weight: bold;
+}
