@@ -18,6 +18,7 @@ import Blog from './routes/blog';
 const rootElement = document.getElementById("root"); 
 
 render(
+  
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
