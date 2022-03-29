@@ -144,12 +144,12 @@ footer {
   display: flex;
   justify-content:center;
   width: 70rem;
-  height: 27rem;
+  height: 22rem;
 }
 
 .aboutImage {
   width: 15rem;
-  height: 25rem;
+  height: 20rem;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto
@@ -184,4 +184,39 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem
+}
+
+/* BLOG PAGE  */
+
+.blogPageContainer {
+  height: 60rem;
+  width: 70rem;
+  border: solid 2px #231f20;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  padding: 4rem;
+}
+
+.blogHeader {
+  color: #231f20;
+  font-size: 2rem;
+  font-family: Agrandir;
+  margin-bottom: 0
+}
+
+.blogTeaserText {
+  color: #231f20;
+  font-size: 1.5rem;
+  font-family: Agrandir;
+  margin: 0
+}
+
+.blogReadMore {
+  color: #231f20;
+  font-size: 1.5rem;
+  font-family: Agrandir;
+  margin: 0
 }
