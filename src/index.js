@@ -25,6 +25,7 @@ render(
         <Route path="Blog" element={<Blog />} />
       </Route> 
     </Routes>
+    <footer>Contact me info! </footer>
   </BrowserRouter>,
   rootElement
 );

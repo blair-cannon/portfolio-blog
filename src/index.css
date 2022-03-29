@@ -1,5 +1,17 @@
 html {
 background-color: #e7dfd8;
+position:relative; 
+margin-left:0;
+margin-right:0;
+padding:0;
+overflow: auto; 
+}
+
+.logo {
+  height: 6rem;
+  width: 6rem;
+  position: absolute;
+  top: 3rem
 }
 
 nav {
@@ -101,4 +113,75 @@ nav {
   font-size: 3rem;
   margin-left: 5rem;
   margin-top: 10rem
+}
+
+footer {
+  position: relative;
+  height: 1.5rem;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  background-color: #183622;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+/* ABOUT PAGE  */
+
+.aboutPageContainer {
+  height: 60rem;
+  width: 70rem;
+  border: solid 2px #231f20;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  padding: 4rem;
+}
+
+.aboutImageWrapper {
+  object-fit: contain;
+  display: flex;
+  justify-content:center;
+  width: 70rem;
+  height: 27rem;
+}
+
+.aboutImage {
+  width: 15rem;
+  height: 25rem;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.aboutPageHeader {
+  font-size: 5rem;
+  color: #231f20;
+  font-family: Agrandir;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center
+
+}
+
+.aboutMeBioBox {
+  height: 40rem;
+  width: 35rem;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.aboutMeBio {
+  color: #231f20;
+  font-size: 1.5rem;
+  font-family: Agrandir;
+}
+
+/* PROJECT PAGE  */
+
+.projectPageDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
