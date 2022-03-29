@@ -16,10 +16,10 @@ export default function Home() {
         <p className="homePageSubheader">I am in the process of becoming a </p>
         <p className="homePageSubheader">Full-Stack Web Developer.</p>
         <div className="svgBlock">
-          <a href="mailto:blair.preston99@gmail.com"><img src={email} width="60px" height="60px" /></a>
-          <a href="https://github.com/blair-preston"><img src={github} width="60px" height="60px" /></a>
-          <a href="tel:+8596094196"><img src={phone} width="60px" height="60px" /></a>
-          <a href="https://www.instagram.com/blair_that_music/"><img src={instagram} width="60px" height="60px" /></a>
+          <a className="svg" href="mailto:blair.preston99@gmail.com"><img src={email} width="60px" height="60px" /></a>
+          <a className="svg" href="https://github.com/blair-preston"><img src={github} width="60px" height="60px" /></a>
+          <a className="svg" href="tel:+8596094196"><img src={phone} width="60px" height="60px" /></a>
+          <a className="svg" href="https://www.instagram.com/blair_that_music/"><img src={instagram} width="60px" height="60px" /></a>
         </div>
       </div>
       <div className="homeRight">
