@@ -1,9 +1,9 @@
 import React from 'react';
 import headShot from '../pictures/headshotSquare.jpeg';
-import {github} from '../pictures/Github.svg'
-import {email} from '../pictures/Email.svg'
-import {instagram} from '../pictures/Instagram.svg'
-import {phone} from '../pictures/Phone.svg'
+import github from '../pictures/Github.svg'
+import email from '../pictures/Email.svg'
+import instagram from '../pictures/Instagram.svg'
+import phone from '../pictures/Phone.svg'
 
 
 export default function Home() {
