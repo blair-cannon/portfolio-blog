@@ -17,7 +17,7 @@ const rootElement = document.getElementById("root");
 
 render(
   <BrowserRouter>
-    <Routes>
+    <Routes className="body">
       <Route path="/" element={<App />}>
         <Route path="/" element={<Home />} />
         <Route path="AboutMe" element={<AboutMe />} />
@@ -25,7 +25,7 @@ render(
         <Route path="Blog" element={<Blog />} />
       </Route> 
     </Routes>
-    <footer>Contact me info! </footer>
+    <footer className="footer">Contact me info! </footer>
   </BrowserRouter>,
   rootElement
 );
