@@ -6,6 +6,8 @@ import tictactoe from '../pictures/tic-tac-toe.png';
 import weatherapp from '../pictures/weather-app.png';
 import backendtodolist from '../pictures/django-to-do-list.png';
 import bouncingballs from '../pictures/bouncingballs.png';
+import evercraft from '../pictures/evercraft.png';
+import alarmclock from '../pictures/alarmclock.png';
 
 export default function Projects() {
   return (
@@ -60,18 +62,18 @@ export default function Projects() {
         <p className="projectDescription" >Interactive, two-player game created with <br/> Object-Oriented-Programming. </p>
       </div>
       <div >
-        <a href="https://github.com/blair-preston/Maskbook">
-          <img className="projectDisplayHome" src={maskbook}></img>
+        <a href="https://github.com/blair-preston/python-evercraft">
+          <img className="projectDisplayHome" src={evercraft}></img>
         </a>
-        <h4 className="projectTitle">Maskbook</h4>
-        <p className="projectDescription" >Facebook backend for Super Heroes, uses SQL <br/> statements to communicate with the database. </p>
+        <h4 className="projectTitle">Evercraft</h4>
+        <p className="projectDescription" >Developing an RPG-Evercraft backend using <br/> Test Driven Development. </p>
       </div>
       <div >
-        <a href="#">
-          <img className="projectDisplayHome" src="#"></img>
+        <a href="https://blair-preston.github.io/alarmclock/">
+          <img className="projectDisplayHome" src={alarmclock}></img>
         </a>
-        <h4 className="projectTitle">Project name</h4>
-        <p className="projectDescription" >Description </p>
+        <h4 className="projectTitle">Alarm Clock</h4>
+        <p className="projectDescription" >Use of the Date object, setInterval, and setTimeout <br/> to display a digital alarm clock. </p>
       </div>
     </div>
   )

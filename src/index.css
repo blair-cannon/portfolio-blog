@@ -136,7 +136,7 @@ nav {
 }
 
 .projectDisplayHome {
-  width: 27rem;
+  width: 28rem;
   height: 23rem;
   border: solid 2px #231f20;
   border-radius: 25px;
@@ -260,3 +260,18 @@ nav {
   margin: 0
 }
 
+.blog-question {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.blog-text {
+  font-size: 1rem;
+}
+
+.blog-header {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
