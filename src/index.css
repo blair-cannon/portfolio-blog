@@ -124,6 +124,7 @@ nav {
   background-color: #183622;
   font-size: 15px;
   text-align: center;
+  padding: 1rem;
 
 }
 
@@ -162,6 +163,10 @@ nav {
   justify-content: center;
 }
 
+.see-more-projects:hover {
+  cursor:pointer;
+}
+
 /* ABOUT PAGE  */
 
 .aboutPageContainer {
@@ -181,19 +186,19 @@ nav {
   display: flex;
   justify-content:center;
   width: 70rem;
-  height: 22rem;
+  height: 16rem;
 }
 
 .aboutImage {
-  width: 15rem;
-  height: 20rem;
+  width: 10rem;
+  height: 15rem;
   object-fit: contain;
   margin-left: auto;
   margin-right: auto
 }
 
 .aboutPageHeader {
-  font-size: 5rem;
+  font-size: 3rem;
   color: #231f20;
   font-family: Agrandir;
   margin-bottom: 0;
