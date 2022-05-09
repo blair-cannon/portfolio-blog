@@ -233,17 +233,21 @@ nav {
   border: solid 2px #231f20;
   margin-left: auto;
   margin-right: auto;
-  align-self: center;
   padding: 4rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-self: center;
 }
 
 .blogHeader {
   color: #231f20;
   font-size: 2rem;
   font-family: Agrandir;
-  margin-bottom: 0
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .blogTeaserText {
@@ -274,4 +278,14 @@ nav {
   font-weight: bold;
   font-style: italic;
   text-align: center;
+  margin-top: 2rem;
 }
+
+.blog-date {
+  font-size: 1rem;
+  margin:0;
+}
+
+/* a.read-more-link {
+  margin-bottom: 2rem;
+} */

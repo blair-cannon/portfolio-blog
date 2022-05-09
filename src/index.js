@@ -12,6 +12,10 @@ import AboutMe from './routes/aboutMe';
 import Projects from './routes/projects';
 import Blog from './routes/blog';
 import PythonBlog from './blogs/python';
+import FrontendFinishLineBlog from './blogs/frontendfinishline';
+import WelcometoReactBlog from './blogs/welcometoReact';
+import PushtheJSLimitsBlog from './blogs/pushthejslimits';
+import InPersonSprintBlog from './blogs/inpersonsprint';
 
 
 const rootElement = document.getElementById("root"); 
@@ -25,6 +29,10 @@ render(
         <Route path="Projects" element={<Projects />} />
         <Route path="Blog" element={<Blog />} />
         <Route path="PythonBlog" element={<PythonBlog />} />
+        <Route path="FrontendFinishLineBlog" element={<FrontendFinishLineBlog />} />
+        <Route path="WelcometoReactBlog" element={<WelcometoReactBlog />} />
+        <Route path="PushtheJSLimitsBlog" element={<PushtheJSLimitsBlog />} />
+        <Route path="InPersonSprintBlog" element={<InPersonSprintBlog />} />
       </Route> 
     </Routes>
     <footer className="footer">Contact me info! </footer>
