@@ -291,6 +291,102 @@ nav {
   margin:0;
 }
 
-/* a.read-more-link {
-  margin-bottom: 2rem;
-} */
+@media only screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+  nav {
+    height:3rem;
+  }
+  .logo {
+    height: 4rem;
+    width: 4rem;
+    top: 0.5rem;
+  }
+  .homePageContainer {
+    height: 25rem;
+    width:14rem;
+    justify-content: center;
+    gap:4rem;
+    padding: 3rem;
+    flex-direction:column;
+
+  }
+  .homePageHeader {
+    font-size:2rem;
+  }
+  .svgBlock {
+    margin-top: 1rem;
+  }
+  .svg {
+    padding: 0.5rem;
+  }
+  .svg img {
+    width: 30px;
+    height: 30px;
+  }
+  .homePageSubheader {
+    font-size: 1rem;
+  }
+  .homeRight {
+    display: flex;
+    justify-content: center;
+  }
+  .headShot {
+    width:12rem;
+    height: 13rem;
+  }
+  .recentProjects {
+    margin-top:5rem;
+    font-size:2rem;
+  }
+  .belowTheFold {
+    flex-direction: column;
+  }
+  .projectDisplayHome {
+    width:23rem;
+    height: 20rem;
+    margin-left: 8px;
+  }
+  .projectTitle {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  .aboutPageContainer {
+    height: 39rem;
+    width: 14rem;
+    padding: 3rem;
+  }
+  .aboutImageWrapper {
+    width: 14rem;
+    height: 12rem;
+  }
+  .aboutImage {
+    width: 8rem;
+    height: 11rem;
+  }
+  .aboutMeBio {
+    font-size: 0.75rem
+  }
+  .aboutMeBioBox {
+    width: 16rem;
+  }
+  .aboutPageHeader {
+    font-size: 2rem;
+  }
+  .blogPageContainer {
+    width: 14rem;
+    height: max-content;
+    padding: 3rem;
+    gap: 1rem;
+  }
+  .blogHeader {
+    font-size: 1.5rem;
+  }
+  .blogTeaserText {
+    font-size: 1rem;
+  }
+}

@@ -3,9 +3,7 @@ import aboutImage from '../pictures/surfing.jpeg'
 
 export default function AboutMe() {
   return (
-    <div className="aboutPageContainer" style={{
-      height:"60rem"
-    }}>
+    <div className="aboutPageContainer" >
       <div className="aboutImageWrapper">
         <img className="aboutImage" src={aboutImage} alt="about me"></img>
       </div>
