@@ -7,7 +7,7 @@ export default function AboutMe() {
       height:"60rem"
     }}>
       <div className="aboutImageWrapper">
-        <img className="aboutImage" src={aboutImage}></img>
+        <img className="aboutImage" src={aboutImage} alt="about me"></img>
       </div>
         <h1 className="aboutPageHeader">About me.</h1>
       <div className="aboutMeBioBox">
