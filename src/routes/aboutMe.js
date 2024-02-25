@@ -18,12 +18,7 @@ export default function AboutMe() {
           In May of 2021, I graduated from UK and began applying to medical schools as I had always planned on. I started to notice
           a growing itch inside of me to want a fresh, broadened path for my future. Long story short, I took a shot in the dark and
           signed up for Awesome Inc's 16-week, intensive training program for aspiring software developers. It has been the 
-          best thing that has happened for my life. I already know that this knowledge will bring so much fruit into my life. <br/> <br/>
-
-          Fun stuff about me.  <br/>
-          I am an adventurer at heart. 
-          From white water rafting, rock climbing, skydiving, and surfing to hiking at National Parks, being out in nature 
-          is super important to me. 
+          best thing that has happened for my life. I already know that this knowledge will bring so much fruit into my life. <br/> 
         </p>
       </div>
     </div>

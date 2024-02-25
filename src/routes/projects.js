@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <div className="projectPageDiv">
       <div>
-        <a href="https://mud-buds.herokuapp.com/">
+        <a href="https://github.com/blair-cannon/final-project-mud-buds">
           <img className="projectDisplayHome" src={finalproject} alt="project"></img>
         </a>
         <h4 className="projectTitle" >Mud-Buds</h4>

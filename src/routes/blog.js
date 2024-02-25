@@ -5,7 +5,7 @@ export default function Blog() {
 
   return (
     <div className="blogPageContainer" >
-        <h1 className="aboutPageHeader">Blog.</h1>
+        <h1 className="aboutPageHeader">Resume.</h1>
       <div>
         <h4 className="blogHeader">Breaking the Ice with Python</h4>
         <h4 className="blog-date">4/8</h4>

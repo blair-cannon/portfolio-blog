@@ -23,12 +23,11 @@ export default function Home() {
     <div className="spacer"></div>
     <div className="homePageContainer">
       <div className="homeLeft">
-        <h1 className="homePageHeader">Blair Preston</h1>
-        <p className="homePageSubheader">I am in the process of becoming a </p>
-        <p className="homePageSubheader">Full-Stack Web Developer.</p>
+        <h1 className="homePageHeader">Blair Cannon</h1>
+        <p className="homePageSubheader">Data Engineer</p>
         <div className="svgBlock">
-          <a className="svg" href="mailto:blair.preston99@gmail.com" ><img src={email} width="60px" height="60px" alt="mail svg" /></a>
-          <a className="svg" href="https://github.com/blair-preston" ><img src={github} width="60px" height="60px" alt="github svg" /></a>
+          <a className="svg" href="mailto:blair.cannon99@gmail.com" ><img src={email} width="60px" height="60px" alt="mail svg" /></a>
+          <a className="svg" href="https://github.com/blair-cannon" ><img src={github} width="60px" height="60px" alt="github svg" /></a>
           <a className="svg" href="tel:+8596094196"><img src={phone} width="60px" height="60px" alt="phone svg" /></a>
           <a className="svg" href="https://www.instagram.com/blair_that_music/"><img src={instagram} width="60px" height="60px" alt="instagram svg"  /></a>
         </div>
@@ -37,10 +36,10 @@ export default function Home() {
         <img className="headShot" src={headShot} alt="headshot"></img>
       </div>
     </div>
-        <h3 className="recentProjects" >Recent Projects.</h3>
+        <h3 className="recentProjects" >Past Projects.</h3>
       <div className="belowTheFold">
         <div>
-            <a href="https://mud-buds.herokuapp.com/">
+            <a href="https://github.com/blair-cannon/final-project-mud-buds/">
               <img className="projectDisplayHome" src={finalproject} alt="final project"></img>
             </a>
           <h4 className="projectTitle" >Mud-Buds</h4>
