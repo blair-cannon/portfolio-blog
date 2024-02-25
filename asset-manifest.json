@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-blog/static/css/main.79ec71f8.css",
-    "main.js": "/portfolio-blog/static/js/main.af857d89.js",
+    "main.js": "/portfolio-blog/static/js/main.49cc4a24.js",
     "static/media/headshotSquare.jpeg": "/portfolio-blog/static/media/headshotSquare.6384c7e4734ed5833444.jpeg",
     "static/media/restaurant.png": "/portfolio-blog/static/media/restaurant.d7dcc4f3f43f45eea0f4.png",
     "static/media/surfing.jpeg": "/portfolio-blog/static/media/surfing.c1af9d0a52ac7f52c9db.jpeg",
@@ -12,7 +12,7 @@
     "static/media/alarmclock.png": "/portfolio-blog/static/media/alarmclock.6c50fb5cb69e54348218.png",
     "static/media/django-to-do-list.png": "/portfolio-blog/static/media/django-to-do-list.219bd69912cc641f892b.png",
     "static/media/weather-app.png": "/portfolio-blog/static/media/weather-app.540d21ca023f28c69c35.png",
-    "static/media/logo.png": "/portfolio-blog/static/media/logo.2e23e49f693d8b0fd18d.png",
+    "static/media/logo.png": "/portfolio-blog/static/media/logo.89c2995d3b81da938d92.png",
     "static/media/tic-tac-toe.png": "/portfolio-blog/static/media/tic-tac-toe.88cf86d81215b42d7a83.png",
     "static/media/Instagram.svg": "/portfolio-blog/static/media/Instagram.ef1f925f7a1bafb93e323b2b085913e1.svg",
     "static/media/Phone.svg": "/portfolio-blog/static/media/Phone.2f5097cf1ad0d8166e2276013a9287a6.svg",
@@ -20,10 +20,10 @@
     "index.html": "/portfolio-blog/index.html",
     "static/media/Email.svg": "/portfolio-blog/static/media/Email.3d3eac101e0b24bcf9ff649c8746c6cc.svg",
     "main.79ec71f8.css.map": "/portfolio-blog/static/css/main.79ec71f8.css.map",
-    "main.af857d89.js.map": "/portfolio-blog/static/js/main.af857d89.js.map"
+    "main.49cc4a24.js.map": "/portfolio-blog/static/js/main.49cc4a24.js.map"
   },
   "entrypoints": [
     "static/css/main.79ec71f8.css",
-    "static/js/main.af857d89.js"
+    "static/js/main.49cc4a24.js"
   ]
 }
